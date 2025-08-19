@@ -1,4 +1,24 @@
 // SOLUTION: ADD_TWO_NUMBERS (https://leetcode.com/problems/add-two-numbers/)
+/*
+NOTES:
+First time using a linked list. Essentially, you cannot access the value of the next node without going through the current node. So you have to keep track of the current node and then move to the next node. You also cannot use the length of a linked list in a for loop so you have to use a while loop. 
+
+Think of a liked list like a chain. You can only access the next link of the chain by going through the current first. So you always have to go in order. It may have the same syntax as an array, BUT IT IS NOT THE SAME.
+
+HERE ARE REAL WORLD EXAMPLES OF USING LINKED LISTS FROM GOOGLE:
+Examples include web browser history (back/forward navigation), music and video playlists, image viewers (next/previous navigation), and even in operating systems for task scheduling
+
+BASIC METHODS/FUNCTIONS FOR LINKED LISTS:
+
+val: Access the value of the current node.
+next: Access the next node in the linked list.
+append({Value}): Add a new node to the end of the linked list.
+pop: Remove the last node from the linked list.
+delete({Value}): Remove a specific node from the linked list.
+
+*/
+
+
 /**
  * Definition for singly-linked list.
  * function ListNode(val, next) {
